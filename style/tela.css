@@ -94,7 +94,7 @@
     padding: 0.5rem 0.5rem;
     overflow: hidden;
     cursor: none;
-    background-image: url('https://observatoriodegames.uol.com.br/wp-content/uploads/2022/06/Nintendo-Switch-Online.jpg');
+    background-image:linear-gradient(rgb(0,0,0,0.255),rgba(0,0,0,0.255)), url('https://observatoriodegames.uol.com.br/wp-content/uploads/2022/06/Nintendo-Switch-Online.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

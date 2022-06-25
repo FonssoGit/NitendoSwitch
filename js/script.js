@@ -1,6 +1,10 @@
 const clickB = document.querySelector('#btnBclick')
 const clickA = document.querySelector('#btnAclick')
 const clickY = document.querySelector('#btnYclick')
+const clickHome = document.querySelector('#btnHOMEclick')
+
+const url = 'https://github.com/FonssoGit'
+const url2 = 'https://github.com/FonssoGit/NitendoSwitch'
 
 //controle esquerdo
 let controleesquerdo = document.querySelector('.controle-esquerdo')
@@ -73,7 +77,13 @@ clickA.addEventListener('click',()=>{
     detalhe.classList.remove('detalhe-animation')
 })
 clickY.addEventListener('click',()=>{
-    
+    const wind = window.open(url, '_blank')
+    wind.focus()
+})
+
+clickHome.addEventListener('click',()=>{
+    const win = window.open(url2, '_blank')
+    win.focus()
 })
 let bordaanalogicocentercenter = document.getElementById('borda-analogico-center-center')
 let bordaanalogicocentercenterdireito = document.getElementById('borda-analogico-center-center-direito')

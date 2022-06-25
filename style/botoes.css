@@ -172,11 +172,16 @@ i{
     justify-content: center;
     border: 1px solid rgba(0, 0, 0, 0.404);
     background-color: grey;
+    cursor: pointer;
+    z-index: 3;
 }
 .btn-reset-direito span{
     font-size: 15px;
     display: flex;
     color: black;
+}
+.btn-reset-direito:active{
+    transform: scale(0.8);
 }
 .btn-rest-circle-direito{
     width: 22px;
